@@ -1,7 +1,7 @@
 # Which trap is best? Alternatives to human landing catches for malaria vector surveillence
 
 # Repository Information
-This repository contains the RIS file with the included studies used for synthesis. The effect_calculation.r file contains all the code used to calculate the treatment effects. HLCs were considered to be group 2 for effect size calculations. Some information was extracted using the MetaDigitise library, but that code is omitted due to the nature of the how the library is used. The analysis.r file contains all relevant statistical analysis performed. Further details about the project can be found in the paper, which will be linked here in the README after publication. The abstract is presented below for convenience.
+This repository contains the RIS file with the included studies used for synthesis. The `Effect Calculation'.r file contains all the code used to calculate the treatment effects. HLCs were considered to be group 2 for effect size calculations. Some information was extracted using the MetaDigitise library, but that code is omitted due to the nature of the how the library is used. The Analysis.r file contains all relevant statistical analysis performed. Further details about the project can be found in the paper, which will be linked here in the README after publication. The abstract is presented below for convenience.
 
 # Abstract 
 ## Background: 
