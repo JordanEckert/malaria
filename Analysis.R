@@ -84,18 +84,22 @@ dev.off()
 inf.malaria = InfluenceAnalysis(m.malaria, random = TRUE)
 inf.malaria
 
+# Baujat plots
 png(filename = "~/Desktop/Baujat.png", width=7000,height=7000,res=400)
 plot(inf.malaria, "baujat", max.overlaps = 100)
 dev.off()
 
+# Influence plots
 png(filename = "~/Desktop/Influence.png", width=7000,height=7000,res=400)
 plot(inf.malaria, "influence")
 dev.off()
 
+# Effect size plots
 png(filename = "~/Desktop/EffectSize,png", width=7000,height=7000,res=400)
 plot(inf.malaria, "es")
 dev.off()
 
+# I^2 plots
 png(filename = "~/Desktop/I2.png", width=7000,height=7000,res=400)
 plot(inf.malaria, "i2")
 dev.off()
